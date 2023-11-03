@@ -41,6 +41,8 @@ public class Monty {
                     newPlayerChoice = 0;
                 }
             }
+        } else if (playerSwitch.equalsIgnoreCase("Peter")){
+            newPlayerChoice = carDoor;
         } else {
             newPlayerChoice = playerChoice;
         }
